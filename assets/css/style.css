@@ -1,0 +1,79 @@
+body {
+    margin: 0%;
+    padding:0;
+    color:#666;
+    background:#4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* Navigation */
+
+.navBar {
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    position: fixed;
+    background-color: white;
+    display: inline;
+}
+
+
+li {
+    float: right;
+}
+
+
+.currentPage {
+   
+    float: right;
+    
+}
+
+#alignName {
+    float: left;
+    
+}
+
+
+
+/* About Page */
+
+.aboutMe {
+
+   
+    margin: auto 15% auto 25%;
+    clear: left;
+    padding: 0;
+    width: 650px;
+    height: 650px;
+    background-color: white;
+   
+}
+
+.ulTwo {
+    
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    float: center;
+}
+
+#aboutBio {
+    padding-right: 275px;
+    float: left;
+    border-bottom: 1px solid #000;
+    
+
+}
+
