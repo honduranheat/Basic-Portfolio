@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <head>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
@@ -5,30 +7,55 @@
     <body>
     
         <nav>
-            <ul class=navBar class=currentPage>
+            <ul class="navBar currentPage">
                 
-                <li id=alignName><h1>Justin Whittington</h2></li>
+                <li id=alignName><h1>Justin Whittington</h1></li>
                     <br>
-                <li>Contact</li>
-                <li>Portfolio</li>
-                <li>About</li>
+                    <a href="contact.html"><li class=contactBtn>Contact</li></a>
+                    <a href="portfolio.html"><li class=portfolioBtn>Portfolio</li></a>
+                    <a href="index.html"><li class=aboutBtn>About</li></a>
             </ul>
         </nav>
     
         <br><br><br><br><br><br>
     
-       <div class=aboutMe>
-           <ul class=ulTwo>
-               
-                <li><h1 class=aboutBio>About Me</h1></li>
-                <br><br><br><br><br><br>
+        <section class=aboutSection>
+            <h2>
+            Contact
+            </h2>
+            <hr class=hrOne>
+          
+            <form action="contact_page.php">
+                <label for="name" >Name</label>
+                <br>
+                <input type="text" class=nameBox name="name" placeholder="Your name..">
+                <br>
+                <br>
+                <label for="email" >Email</label>
+                <br>
+                <input type="text" class=emailBox name="email" placeholder="example@gmail.com">
+                <br>
+                <br>
+                <label for="message" >Message</label>
+                <br>
+                <input type="text" class=messageBox name="message" placeholder="Your message here.." >
+                <br><br>
+                <button type="submit" form="form1" value="Submit">Submit</button>
+            </form>
+        </section>
+       
     
-                <li><p> I'm a cybernetic organism. Living tissue over a metal<br>
-                     endoskeleton. My mission is to protect you. Thirty-five years <br>
-                     from now, you reprogrammed me to be your protector here, in this<br>
-                      time.
-               </p></li>
+        <section class=contactBox>
     
-           </ul>
-       </div>
+            <h3>Connect With Me</h3>
+            <hr class=hrTwo>
+            <div>
+                <a href=https://github.com/honduranheat target=_blank><img src="./assets/images/GitHub-Mark.png" alt="github" class=githubBtn></a>
+                
+                <a href=https://www.linkedin.com/in/justin-whittington-483985153/ target=_blank><img src="./assets/images/linkedin-round.png" alt="linkedin" class=linkedinBtn></a>
+    
+                <a href=https://stackoverflow.com/users/9048358/j-whittington target=_blank><img src="./assets/images/stack.png" alt="stack overflow" class=stackoverflowBtn></a>
+            </div>
+        </section>
+    
     </body>
