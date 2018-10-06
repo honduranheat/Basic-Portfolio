@@ -1,60 +1,164 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+
+
+  <script type='text/javascript' src='./logic.js'></script>
 </head>
 
 <body>
+
+
+  <nav id='navigaton'>
+
+    <div id='logo-container'>
+      <img src='./assets/images/logo.png' alt="logo" class='logo' id='logo'>
+    </div>
+
+    <div id='nav-container'>
+      <!-- <h2 class='nav-btn'>Home</h2> -->
+      <h2 class='nav-btn'><a href='#about-container'>About</a></h2>
+      <h2 class='nav-btn'><a href='#portfolio-section'>Portfolio</a></h2>
+      <h2 class='nav-btn' id='contact-btn'><a href='#contact-section'>Contact</a></h2>
+    </div>
+
+  </nav>
+
+
+  <div id='landing-page' class='row-center-justify'>
+
+    <div>
+      <h1 class='row-center-justify'>Hey, I'm Justin Whittington.</h1>
+      <h1 class='row-center-justify'>Full Stack Web Developer from Durham, NC.</h1>
+
+
+      <div class='row-center-justify' id='arrow-top'>
+        <a href='#about-container'>
+          <p class='arrow-btn' id='arrow'>
+          </p>
+        </a>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+  <div id='about-container' class='row-center-justify'>
+
+    <div class='center-align'>
+
+        <div class='column'>
+
+            <div id='about-section' class='row-center-justify'>
     
-    <!-- navigation -->
-
-    <!-- my content will go over my header because it is fixed -->
-   
-        <nav>
-            <ul class="navBar currentPage">
-            
-                <li id=alignName><h1>Justin Whittington</h1></li>
-                <br>
-                <a href="contact.html"><li class=contactBtn>Contact</li></a>
-                <a href="portfolio.html"><li class=portfolioBtn>Portfolio</li></a>
-                <a href="index.html"><li class=aboutBtn>About</li></a>
-            </ul>
-        </nav>
-    
-
-    <br><br><br><br><br><br>
-
-    <!-- About Me Section -->
-    <section class=aboutSection>
-        <h2>
-        About Me
-        </h2>
-        <hr class=hrOne>
-      
-
-        <article>
-            <img class=bioPic src="https://images-na.ssl-images-amazon.com/images/I/61SHEOrTVVL._SL1001_.jpg" alt="dog fort">
-            <p>I'm a cybernetic organism. Living tissue over a metal endoskeleton. My mission is to protect you. Thirty-five years 
-            from now, you reprogrammed me to be your protector here, in this time.</p>
-         </article>
-    </section>
-   
-    <!-- Social Media -->
-    <section class=contactBox>
-
-        <h3>Connect With Me</h3>
-        <hr class=hrTwo>
-        <div>
-            <a href=https://github.com/honduranheat target=_blank><img src="./assets/images/GitHub-Mark.png" alt="github" class=githubBtn></a>
-            
-            <a href=https://www.linkedin.com/in/justin-whittington-483985153/ target=_blank><img src="./assets/images/linkedin-round.png" alt="linkedin" class=linkedinBtn></a>
-
-            <a href=https://stackoverflow.com/users/9048358/j-whittington target=_blank><img src="./assets/images/stack.png" alt="stack overflow" class=stackoverflowBtn></a>
+                <img src='./assets/images/profilepic2.png' alt="profile picture" class='profile-picture' id='profile-picture'>
+          
+                <div id='about-text' class='about-box'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia
+                  deserunt mollit anim id est laborum</div>
+          
+              </div>
+          
+              <div class='row-center-justify' id='arrow-top'>
+                  <a href='#portfolio-section'>
+                    <p class='arrow-btn' id='arrow'>
+                    </p>
+                  </a>
+                </div>
         </div>
-    </section>
 
-    <footer>
-        <p class=foot>Copyright Enterprise Enterprises 2132</p>
-    </footer>
+    </div>
+
+    
+
+    
+
+  </div>
+
+
+
+
+  <div id='portfolio-section' class='row-center-justify'>
+
+    <h1 class='header row-center-justify'>
+      Projects
+    </h1>
+
+    <div class='project-container row-center-justify'>
+
+      <div class='project'>
+
+      </div>
+
+      <div class='project'>
+
+      </div>
+
+    </div>
+
+    <div class='project-container row-center-justify'>
+
+      <div class='project'>
+
+      </div>
+
+      <div class='project'>
+
+      </div>
+
+    </div>
+
+    <div class='row-center-justify' id='arrow-top'>
+        <a href='#contact-section'>
+          <p class='arrow-btn' id='arrow'>
+          </p>
+        </a>
+      </div>
+
+  </div>
+
+
+  <div id='contact-section' class='row-center-justify'>
+
+
+    
+
+        <div class='column'>
+
+            <h1 class='row-center-justify header'>Contact</h1>
+            <h2 class='row-center-justify'>(919)-452-1773</h2>
+            <h2 class='row-center-justify'><a href="Mailto:jwhittington1992@gmail.com"  id='link-form'>jwhittington1992@gmail.com</a></h2>
+            <div class='row-center-justify'>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-github"></i>
+            </div>
+    
+        </div>
+
+    
+    
+    
+
+  </div>
+
+
 
 </body>
