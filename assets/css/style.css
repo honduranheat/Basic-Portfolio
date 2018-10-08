@@ -140,7 +140,7 @@ nav {
 /* Projects VVVVV */
 
 .header {
-  padding-top: 100px;
+  padding-top: 75px;
   color: #e78200;
   /* padding-bottom: 20px; */
 }
@@ -156,7 +156,7 @@ nav {
 
 .project {
   width: 307px;
-  height: 392px;
+  height: 400px;
   margin: 21px;
   border: solid 1px;
 }
@@ -165,6 +165,35 @@ nav {
   padding-top: 20px;
   width: 100%;
 }
+
+.app-pic {
+  height: 200px;
+  width: 307px;
+}
+
+.app-desc {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.view-app {
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+.view-app a {
+  color: #76c3cc;
+}
+
+.app-title {
+  color: #e78200;
+  
+}
+
 
 /* Projects ^^^^^ */
 
@@ -208,4 +237,41 @@ padding-left: 50px;
   #about-section {
     margin-top: 200px;
   }
+
+  #landing-page {
+    height: 863px;
+  }
+
+  .media-horizontal {
+    padding-top: 100px;
+  }
+
+  #about-container {
+    height: 863px;
+  }
+
+  #about-section {
+    padding-bottom: 150px;
+  }
+
+  #portfolio-section {
+    height: 1400px;
+  }
+
+  #contact-section {
+    
+    height: 946px;
+    
+  }
+
+  #contact-mediaq {
+    padding-top: 200px;
+  }
+
+  .project-bot-rows {
+    margin-top: 75px;
+  }
+
+  
 }
+
