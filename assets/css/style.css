@@ -76,6 +76,10 @@ nav {
   padding-right: 60px;
 }
 
+#contact {
+  padding-top: 75px;
+}
+
 #logo-container {
   width: 100%;
   display: flex;
@@ -99,13 +103,17 @@ nav {
 /* Landing VVVVV */
 #landing-page {
   width: 100%;
-  padding-top: 225px;
+  padding-top: 250px;
   padding-bottom: 200px;
 }
 
 /* Landing ^^^^^ */
 
 /* About Me VVVVV */
+
+#about {
+  padding-bottom: 100px;
+}
 
 #about-container {
   height: 660px;
@@ -115,6 +123,7 @@ nav {
 #about-section {
   display: flex;
   align-items: center;
+  padding-top: 175px;
 }
 
 #profile-picture {
@@ -240,7 +249,7 @@ nav {
 
   #about-section {
     padding-bottom: 150px;
-  }
+  } 
 
   #portfolio {
     height: 1400px;
@@ -259,7 +268,13 @@ nav {
   }
 }
 
-@media only screen and (min-height: 568px) {
+@media only screen and (max-height: 568px) {
+  html, body {
+    width: 320px;
+  }
+  nav {
+    position: absolute;
+  }
   #navigation {
     display: flex;
     flex-direction: column;
@@ -267,8 +282,30 @@ nav {
   .nav-btn {
     font-size: 15px;
   }
+  
   #logo {
     width: 40px;
     height: 40px;
+  }
+
+  #landing-page {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .media-landing {
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    text-align: center;
+  }
+  #arrow-top {
+    padding-left: 15%;
+  }
+
+
+  #about {
+    width: 320px;
   }
 }
