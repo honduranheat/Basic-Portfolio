@@ -232,7 +232,7 @@ nav {
 
 @media only screen and (min-height: 769px) {
   #about-section {
-    margin-top: 200px;
+    margin-top: 50px;
   }
 
   #landing-page {
@@ -256,12 +256,13 @@ nav {
   }
 
   #contact {
+    padding-top: 150px;
     height: 946px;
   }
 
-  #contact-mediaq {
-    padding-top: 200px;
-  }
+  /* #contact-mediaq {
+    padding-top: 300px;
+  } */
 
   .project-bot-rows {
     margin-top: 75px;
